@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+
+body{
+    background-color: rgb(44, 39, 39);
+    color: white;
+    font-family: 'Righteous', cursive;
+}
+h1{
+    font-size: 70px;
+}
+h2{
+    font-size: 45px;
+}
+div.goals{
+    font-size: 20px;
+}
+#teamone-shoot-button, #teamtwo-shoot-button{
+    border: 2px solid white;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+}
+#teamone-shoot-button:active{
+    width: 85px;
+    height: 85px;
+    color: red;
+}
+
+#teamtwo-shoot-button:active{
+    width: 85px;
+    height: 85px;
+    color: red;
+}
+
+#reset-button{
+    background-color: rgb(190, 99, 99);
+    width: 200px;
+    height: 30px;
+    margin: 5px;
+}
+#mute{
+    color: white;
+    background-color: rgb(44, 39, 39);
+    border: none;
+
+}
+.hide {
+    display: none;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.clear {
+    clear: both;
+}
+#reset-container, h1 {
+    text-align: center;
+}

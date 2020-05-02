@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JS Game Challenge</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <audio id="myAudioSwish">
+        <source src="./assets/sound/Swish.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+
+      <embed id= "bgdmusic" loop="true" src="/assets/sound/Bro_Time.mp3" hidden="true" type="audio/mp3"></embed>
+
+    <audio id="myAudioReset">
+          <source src="./assets/sound/Reset.mp3" type="audio/mp3"">
+            Your browser does not support the audio element.
+    </audio>
+
+    <div>
+        <h1>Chazz's First JS Game</h1>
+        <button id="mute">MUTE</button>
+        <div id="reset-container">
+            <button id="reset-button">RESET</button><br>
+            NUMBER OF RESETS: <span id="num-resets">0</span>
+            <div><img src="./assets/images/basketball_court.jpg" alt=""></div>
+        </div>
+        <div class="clear"></div>
+        <div class="left">
+            <h2>
+                Team 1
+            </h2>
+            <div class="goals">
+                SHOTS TAKEN: <span id="teamone-numshots">0</span><br>
+                GOALS: <span id="teamone-numgoals">0</span>
+            </div>
+            <div>
+                <button id="teamone-shoot-button">SHOOT</button>
+            </div>
+        </div>
+        <div class="right">
+            <h2>
+                Team 2
+            </h2>
+            <div class="goals">
+                SHOTS TAKEN: <span id="teamtwo-numshots">0</span><br>
+                GOALS: <span id="teamtwo-numgoals">0</span>
+            </div>
+            <div>
+                <button id="teamtwo-shoot-button">SHOOT</button>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    
+    <script src="./assets/javascript/game.js"></script>
+</body>
+</html>
