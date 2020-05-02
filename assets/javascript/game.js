@@ -48,9 +48,9 @@ shoots2.addEventListener("click", function(){
 
 let resets = 0
 resetButton.addEventListener("click", function(){
-    if (shootsFired > shootsFired2){
+    if (boom1 > boom2){
         alert('Team 1 WINS!')
-    }else if (shootsFired < shootsFired2){
+    }else if (boom1 < boom2){
         alert('Team 2 WINS!')
     };
     resets++
